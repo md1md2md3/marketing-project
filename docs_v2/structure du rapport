@@ -1,0 +1,106 @@
+# Structure détaillée du rapport final (Marketing 4.0/5.0) — Projet AURA
+
+## 1. Introduction
+
+- Contexte académique du module « Marketing et usages 4.0 » et objectifs du projet.
+- Présentation synthétique d’AURA : intégrateur Smart Home haut de gamme orienté « Technology for Humanity » (cf. [docs/02_BRAND_MANIFESTO.md](docs/02_BRAND_MANIFESTO.md)).
+- Problématique centrale : passer de l’Internet des Objets (IoT) à l’Internet des Comportements (IoB) via une approche de valeur par « Outcomes ».
+- Méthodologie du rapport : cadrage, analyse, stratégie, exécution (4P), KPIs et conclusions.
+
+## 2. Description du projet e-commerce (Architecture & Fonctionnalités)
+
+- CMS choisi : Wix, avec un site marchand structuré selon 5 piliers écosystémiques (cf. [docs/04_PRODUCT_ECOSYSTEM.md](docs/04_PRODUCT_ECOSYSTEM.md)).
+- Identité de marque et ligne éditoriale : « Sentient Living », Marketing 5.0, éthique et empathie (cf. [docs/02_BRAND_MANIFESTO.md](docs/02_BRAND_MANIFESTO.md)).
+- Architecture des pages (cf. [docs/03_SITE_ARCHITECTURE.md](docs/03_SITE_ARCHITECTURE.md), référence interne) :
+  - Page Accueil : héro vidéo holographique, manifeste, diagramme interactif « AURA Unified », teaser services.
+  - Page Écosystèmes : présentation détaillée des 5 piliers (Nexus, Sanctuary, Harmony, Flow, Source).
+  - Page Boutique : collections et bundles haut ticket par pilier.
+  - Page Services : réservation des prestations (3 niveaux).
+  - Footer : mentions légales et politique de confidentialité.
+- Fonctions clés (implémentées et opérationnelles) :
+  - Wix Stores
+    - Catégorisation par 5 piliers: Nexus (connectivité/fiabilité), Sanctuary (sécurité/paix), Harmony (confort/empathie), Flow (accès/liberté), Source (énergie/résilience).
+    - Bundles premium (ex. « Fortress Bundle », « Ambience Bundle », et « AURA Unified Kit ») pour favoriser la vente par solutions et non par gadgets (cf. [docs/04_PRODUCT_ECOSYSTEM.md](docs/04_PRODUCT_ECOSYSTEM.md)).
+    - Fiches produits enrichies: bénéfices humains, visuels futuristes, codes couleur par pilier.
+  - Wix Bookings
+    - 3 Tiers de service (pleinement actifs) :
+      - Vision Session (Planification) — séance vidéo 45 min, livrable PDF blueprint des routines.
+      - Reality Check (Audit technique) — visite sur site, heatmap Wi-Fi, analyse charges électriques.
+      - Invisible Boundary (Éthique/Privacy) — configuration locale, firewall, masquage caméras.
+    - Calendriers, paiements et confirmations automatisées par email/SMS.
+  - Wix Members
+    - Programme de fidélité « Green Points » :
+      - Attribution de points doublés sur les achats Source (soutien durabilité).
+      - Tableau de bord membre: suivi des points, historique d’achats et réservations.
+      - Niveaux de statut (Bronze/Argent/Or) avec bénéfices (réductions, priorités de service).
+  - Wix Automations
+    - Récupération de panier abandonné :
+      - Séquence multi-étapes (J+1, J+3) avec personnalisation par pilier consulté.
+      - Incentive contextuel (ex: -5% sur bundles HARMONY).
+    - « Welcome Home »:
+      - Après première commande ou planification: message de bienvenue, guide d’installation, invitation à la Vision Session.
+      - Segmentation: nouveaux clients vs. membres existants; contenu adapté au pilier dominant.
+  - Privacy/Sécurité — « Data Sovereignty »
+    - Hébergement sécurisé et HTTPS activé; conformité mentions légales et politique de confidentialité (footer).
+    - Paramétrage « souveraineté des données »:
+      - Stockage local priorisé pour dispositifs vidéo; minimisation des données personnelles.
+      - Pare-feu, segmentation réseau (Nexus), chiffrement des communications et masquage zones sensibles (Sanctuary).
+      - Paramètres d’opt-in explicites, droit à l’effacement et contrôle des préférences.
+- Assets visuels et prompts IA conformes à la charte (cf. [docs/05_VISUAL_ASSETS.md](docs/05_VISUAL_ASSETS.md)).
+
+## 3. Étude de marché (SWOT & Tendances)
+
+- Segment et positionnement: intégration Smart Home haut de gamme, orienté outcomes (paix, confort, liberté).
+- Tendances clés:
+  - Croissance des solutions domestiques intelligentes et des écosystèmes intégrés.
+  - Sensibilité croissante aux enjeux de privacy/éthique et à la durabilité énergétique.
+  - Passage du produit aux expériences et services (Marketing 5.0).
+- SWOT:
+  - Forces: proposition « outcomes », architecture par piliers, privacy by design, bundles premium.
+  - Faiblesses: dépendance à l’implémentation technique, coûts élevés des bundles.
+  - Opportunités: montée des préoccupations énergétiques (Source), télétravail, sécurité proactive (Sanctuary).
+  - Menaces: concurrence retail généraliste, pression prix, méfiance vis-à-vis des capteurs/IA.
+
+## 4. Stratégie Marketing 5.0 (Ciblage & Positionnement)
+
+- Ciblage:
+  - Personae: propriétaires de villas/appartements haut de gamme, familles sensibles à la sécurité et à la durabilité, professionnels en télétravail.
+- Positionnement:
+  - « Technology for Humanity »: vente d’outcomes, data-driven empathy, souveraineté des données.
+  - Différenciation par les 5 piliers et le kit « AURA Unified » comme intégration centrale (cf. [docs/04_PRODUCT_ECOSYSTEM.md](docs/04_PRODUCT_ECOSYSTEM.md)).
+- Leviers 5.0:
+  - Personnalisation contextuelle (automations et parcours membres).
+  - Éthique et confiance (Invisible Boundary, stockage local).
+  - Impact sociétal (Source + Green Points).
+
+## 5. Plan de marchéage (4P)
+
+- Produit:
+  - Bundles et services intégrés; diagramme « AURA Unified » comme logique de plateforme; charte visuelle holographique.
+- Prix:
+  - Positionnement premium; tarifs packs avantageux; valeur perçue par bénéfices humains et services.
+- Place (Distribution):
+  - Canal principal: site Wix; parcours online-to-onsite via Bookings; support et onboarding automatisés.
+- Promotion:
+  - Automations (panier abandonné, « Welcome Home »), contenu éducatif par pilier, témoignages orientés outcomes, programme « Green Points ».
+
+## 6. KPIs
+
+- Commerce:
+  - Taux de conversion par pilier et par bundle.
+  - Valeur moyenne du panier; taux de récupération des paniers abandonnés.
+- Services:
+  - Taux de réservation par tier (Vision/Reality/Invisible).
+  - Délai moyen de prise de rendez-vous et satisfaction post-prestation.
+- Engagement & Fidélité:
+  - Taux d’inscription membres; progression des « Green Points »; réachat par statut.
+- Confiance & Privacy:
+  - Taux d’opt-in informé; demandes de préférence/effacement; incidents sécurité (objectif: zéro).
+- Contenu & UX:
+  - Temps passé sur page Écosystèmes; clics sur diagramme interactif; scroll depth sur Home.
+
+## 7. Conclusion
+
+- Synthèse: adéquation entre architecture e-commerce, stratégie 5.0 et valeur « Technology for Humanity ».
+- Apports du projet: modèle « outcomes » scalable, différenciation par privacy/éthique et durabilité.
+- Perspectives: extension du pilier Source, optimisation des automations, partenariats installation/énergie.
