@@ -146,6 +146,22 @@ Note: le choix du fulfillment est déterminé après la Vision Session et le dev
 - Analytics & Mesure: GA4 + UTM governance; événements de conversion (booking soumis, devis envoyé, installation réservée).
 - Internationalisation (préparation): plan hreflang si version FR/EN du site.
 
+# 2.10 Architecture technique — Composants Wix (Marketing 5.0)
+
+- Wix Stores (Catalogue & Inventaire): Nous avons utilisé la base de données native de Wix Stores pour établir une « Single Source of Truth » en matière d’inventaire. Cette architecture centralisée est le prérequis à une future intégration de Supply Chain prédictive, permettant une synchronisation temps réel des stocks sur des points de contact omnicanaux potentiels.
+
+- Wix Forms & Lead Capture (Popups): Afin d’éviter les enjeux éthiques du tracking tiers, nous avons déployé Wix Forms pour de la « Zero‑Party Data Collection ». En demandant explicitement les préférences des utilisateurs lors de l’inscription, nous constituons un jeu de données propre et consentement‑based qui alimente notre moteur d’Hyper‑Personnalisation.
+
+- Wix Members Area (Login/Sign Up): Nous avons implémenté le Wix Members Area pour passer du marketing de masse à une stratégie « Segment of One ». Cette couche authentifiée nous permet de suivre les spécificités comportementales individuelles et de délivrer des propositions de valeur sur‑mesure fondées sur l’historique d’interactions.
+
+- Wix Payments (Checkout sécurisé): Pour minimiser l’abandon de panier, nous avons intégré Wix Payments afin de créer une « Frictionless Transactional Layer ». Cela garantit une transition fluide entre les phases Désir et Action du parcours client, en supprimant la latence technique de la conversion.
+
+- Wix Media Manager (Images/Vidéos): Nous avons exploité le Wix Media Manager pour servir des assets à haut débit, créant une « Immersive Digital Experience ». Cette fidélité visuelle est essentielle pour combler le « Tactile Gap » en e‑commerce, grâce à des médias riches qui simulent l’examen physique des produits.
+
+- Wix Blog: Le module Wix Blog agit comme notre moteur de « Value‑Based Marketing ». Plutôt que des interactions strictement transactionnelles, cette fonctionnalité nous permet de diffuser des contenus éducatifs, d’établir l’autorité de la marque et de favoriser la Customer Lifetime Value (CLV) à long terme.
+
+- Wix Speed/Turbo (Performance): Conscients de l’impatience du consommateur « Always‑On », nous nous appuyons sur l’architecture Wix Turbo pour optimiser nos « Core Web Vitals ». Cela garantit que le First Contentful Paint (FCP) atteint les standards du marché, prévenant les rebonds dus à la latence technique.
+
 # 3. Étude de marché (SWOT & Tendances)
 
 ## 3.1 Segment & Positionnement
@@ -232,6 +248,38 @@ Note: le choix du fulfillment est déterminé après la Vision Session et le dev
 [05] Plan de marchéage (4P)
 
 ---
+
+# 4bis. Implémentation technique (alignement Marketing 5.0)
+
+Nous exploitons Wix comme un système d’exploitation marketing composable, superposant contrôle, automatisation, télémétrie, UX contextuelle, visibilité recherche et passage à l’humain, afin de traduire les principes du Marketing 5.0 en exécution concrète.
+
+- Couche logique — Wix Velo (Dev Mode) & personnalisation JavaScript :
+  Nous utilisons Wix Velo pour injecter une logique personnalisée en JavaScript, dépassant les limites CMS standard. Cela active des opérations d’Agile Marketing, permettant un déploiement rapide de couches d’interaction custom sans modifier l’infrastructure backend.
+
+- Couche automation — Wix Automations (Ascend) :
+  Nous mettons en œuvre des workflows d’Augmented Marketing avec Wix Automations. En automatisant les tâches cognitives de bas niveau (emails transactionnels, récupération de panier), nous libérons le capital humain pour la stratégie créative à forte valeur, créant une symbiose entre efficacité machine et empathie humaine.
+
+- Couche télémétrie — Wix Analytics & Reports Dashboard :
+  Le projet est ancré dans un cadre de Data‑Driven Decision Making. Nous utilisons l’analytics Wix pour visualiser la « Customer Journey Map », collecter des signaux comportementaux qui serviront de base à de futurs algorithmes de marketing prédictif.
+
+- Couche contexte — Wix Mobile Editor & layouts adaptatifs :
+  Pour atteindre le Contextual Marketing, nous optimisons l’UI avec le Wix Mobile Editor, orienté mobile‑first. Cela garantit une expérience omnicanale fluide, délivrant la bonne charge de contenu selon le contexte physique (type d’appareil).
+
+- Couche découvrabilité — Wix SEO Wiz & meta tags :
+  Nous configurons l’écosystème de visibilité digitale via Wix SEO Wiz. Ainsi, notre proposition de valeur est optimisée algorithmiquement pour la recherche, alignant les métadonnées techniques sur les requêtes d’intention des utilisateurs.
+
+- Couche interface humaine — Wix Chat / Inbox :
+  Nous intégrons Wix Chat pour combler l’écart entre interface digitale et relation humaine. Cette technologie Human‑Centric permet une résolution en temps réel, réduit le churn et augmente la vitesse de « Service Recovery ».
+
+# 4ter. Stratégie (narratif stack‑vers‑outcomes)
+
+Notre stack est délibérément mappée au Marketing 5.0 : Hyper‑Personnalisation et Agile Marketing (Velo/JS), Augmented Marketing (Automations), Data‑Driven Decision Making et modélisation prédictive (Analytics), Contextual Marketing et expérience omnicanale (Mobile Editor), Digital Visibility Ecosystem (SEO Wiz) et Human‑Centric Technology (Chat).
+
+- Orchestration de conversion : les Automations assurent la continuité (panier abandonné, post‑achat) tandis que le Chat escalade les intentions complexes vers des agents humains pour une résolution guidée par l’empathie ; les machines gèrent le répétable, l’humain délivre le jugement et la confiance.
+- Boucles de mesure : l’Analytics offre une visibilité au niveau du parcours (intérêt par pilier, intention de réservation, acceptation du devis), créant des actifs data pour des modèles prédictifs qui guident des interventions ciblées et réduisent la friction.
+- Cohérence de contexte : des layouts adaptatifs protègent la performance mobile et la parité de contenu, garantissant que le narratif d’outcomes (Paix, Confort, Liberté, Résilience) reste cohérent sur appareils et sessions.
+- Demande & visibilité : SEO Wiz standardise les métadonnées et les données structurées pour que les algorithmes reconnaissent notre offre sur des requêtes riches d’intention ; nous alignons la sémantique des pages aux piliers/services pour capter une demande qualifiée.
+- Service Recovery & confiance : le Chat opère comme un pont humain là où les algorithmes atteignent leurs limites, réduisant le temps de résolution et renforçant la loyauté/NPS.
 
 # 5. Plan de marchéage (4P)
 
